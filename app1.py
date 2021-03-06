@@ -9,7 +9,7 @@ class MyWidget(Widget):
 
 class WidgetsApp(App):
     def build(self):
-        return MyWidget()
+        return MyWidget()   
 
 if __name__=="__main__":
     WidgetsApp().run()
